@@ -2,7 +2,7 @@
 
 class KitUploader < CarrierWave::Uploader::Base
   include Cloudinary::CarrierWave
-  include CarrierWave::RMagick
+#  include CarrierWave::RMagick
 
   process :convert => 'png'
   process :resize_and_pad => [600, 380]

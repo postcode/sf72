@@ -11,7 +11,7 @@ gem 'haml-rails'
 gem 'pg'
 gem "active_model_serializers"
 gem "carrierwave"
-gem "rmagick"
+#gem "rmagick"
 gem 'cloudinary'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'json', '~> 1.7.7'
