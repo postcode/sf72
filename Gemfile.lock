@@ -174,7 +174,6 @@ GEM
       railties (~> 3.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    rmagick (2.13.2)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -231,7 +230,6 @@ DEPENDENCIES
   rack-cors
   rack-timeout
   rails (= 3.2.13)
-  rmagick
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
   unicorn-rails
