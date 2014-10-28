@@ -11,9 +11,9 @@
 @import "bourbon";
 @import "neat";
 @import "icons";
-@import "helvetica_neue";
+// @import "helvetica_neue";
 @import "mobile_menu";
-
+@import url("http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic");
 /* Main colors */
 $dark-grey: #4D4D4D;
 $body-color: #9b9b9b;
@@ -26,9 +26,14 @@ $highlight: #FBB03B;
 $highlight-dark: #F15A24;
 
 /* Fonts options */
-$font-regular:'HelveticaNeueLT-Roman';
-$font-medium:'HelveticaNeueLT-Medium';
-$font-bold:'HelveticaNeueLT-Bold';
+// $font-regular:'HelveticaNeueLT-Roman';
+// $font-medium:'HelveticaNeueLT-Medium';
+// $font-bold:'HelveticaNeueLT-Bold';
+
+/* Fonts options */
+$font-regular: 'Noto Sans';
+$font-medium:'Noto Sans';
+$font-bold:'Noto Sans';
 
 /* Icons */
 $arrow: 'A';
