@@ -41,7 +41,6 @@ $(document).ready ->
       sliderDuring.goToNextSlide()
 
   $('.slider-after').find('.bx-prev').click (event) ->
-    console.log 'slider-after prev' + sliderAfter.getCurrentSlide()
     if sliderAfter.currentIndex == 0
       window.location.hash = '#tab-during-earth-quake'
       showActive states
