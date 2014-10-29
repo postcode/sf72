@@ -100,6 +100,7 @@
 		margin-top: 1.2rem;
 		padding: 0.5rem 2rem 0.5rem 1rem;
 		font-family: $font-medium;
+		font-weight: 700;
 		font-size: 1.187rem;
 		background-color: $highlight;
 		color: #FFF;
@@ -176,6 +177,7 @@ a.checklist:before {
 .basics-video strong {
 	padding-left: 0.8rem;
 	font-family: $font-medium;
+	font-weight: 700;
 	color: $dark-grey;
 }
 
@@ -227,7 +229,7 @@ a.checklist:before {
 		p {
 			@include span-columns(10);
 			line-height: 1.6875rem;
-			font-size: 1.1875rem;
+			font-size: 1.1rem;
 			margin-top: 0.8rem;
 		}
 	}
@@ -268,6 +270,7 @@ a.checklist:before {
 			margin-bottom: 1rem;
 			padding: 1rem;
 			font-family: $font-medium;
+			font-weight: 700;
 			background-color: $highlight;
 			color: #FFF;
 			position: absolute;
@@ -317,7 +320,7 @@ a.checklist:before {
 	h3 {
 		@include span-columns(9.7);
 		@include shift(1);
-		font-size: 1.1875rem;
+		font-size: 1.1rem;
 		line-height: 1.6875rem;
 		margin-top: 4rem;
 		margin-bottom: 3.5rem;
@@ -358,9 +361,10 @@ a.checklist:before {
 
 .story-data h5,
 .story-data p {
-	font-size: 0.87rem;
+	font-size: 0.82rem;
 	line-height: 1.2;
 	font-family: $font-bold;
+	font-weight: 700;
 	color: $dark-grey;
 }
 
@@ -452,6 +456,7 @@ a.checklist:before {
 .story-location {
 	font-weight: normal;
 	font-family: $font-medium;
+	font-weight: 700;
 	color: $dark-grey;
 	font-size: 0.875rem;
 }
@@ -474,6 +479,7 @@ a.checklist:before {
 	padding: 0 0.5rem 0 1.5rem;
 	margin-top: 10.85rem;
 	font-family: $font-medium;
+	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.45;
 	color: $highlight;
@@ -605,6 +611,7 @@ a.checklist:before {
 		display: inline-block;
 		margin: 1.4rem 0.9rem 0.6rem 0;
 		font-family: $font-medium;
+		font-weight: 700;
 		font-size: 1.6rem;
 		position: relative;
 
@@ -792,6 +799,7 @@ a.checklist:before {
 		background-color: $highlight;
 		padding: 1rem;
 		font-family: $font-medium;
+		font-weight: 700;
 		color: #FFF;
 		z-index: 2;
 		position: absolute;
@@ -812,6 +820,7 @@ a.checklist:before {
 .things-list h4 {
 	margin: 0.3rem 0 0;
 	font-family: $font-medium;
+	font-weight: 700;
 	color: $dark-grey;
 	font-size: 1rem;
 	text-align: center;
@@ -849,6 +858,7 @@ a.checklist:before {
 	display: block;
 	line-height: 1;
 	font-family: $font-medium;
+	font-weight: 700;
 	color: $dark-grey;
 	text-align: center;
 }

@@ -17,9 +17,8 @@
 		}
 
 		div {
-
 			p {
-				font-size: 1.1475rem;
+				font-size: 1.1rem;
 				line-height: 1.625rem;
 				margin-top: 3rem;
 			}
@@ -45,7 +44,7 @@
 
 	p {
 		@include span-columns(8.5);
-		font-size: 1.1875rem;
+		font-size: 1.1rem;
 
 	}
 }
@@ -67,16 +66,16 @@
 	ul {
 		@include span-columns(3.6);
 		@include shift(1.7);
-		font-size: 1.1875rem;
+		font-size: 1.1rem;
 
 		li {
 			margin: 2.5rem 0 0;
 			position: relative;
 
 			strong {
-				font-weight: normal;
 				color: $dark-grey;
 				font-family: $font-bold;
+				font-weight: 700;
 			}
 
 		}
@@ -115,11 +114,12 @@
 	p {
 		@include row();
 		@include span-columns(7.5);
-		font-size: 1.1875rem;
+		font-size: 1.1rem;
 	}
 
 	.pdf-languages-trigger {
 		font-family: $font-bold;
+		font-weight: 700;
 		@include span-columns(5);
 		@include shift(0.5);
 		position: relative;
@@ -154,7 +154,7 @@
 	p {
 		@include row();
 		@include span-columns(7.5);
-		font-size: 1.1875rem;
+		font-size: 1.1rem;
 	}
 
 	ul {
@@ -171,7 +171,7 @@
 			p {
 				@include row();
 				@include span-columns(9.5);
-				font-size: 1rem;
+				font-size: .97rem;
 			}
 
 			.geo {

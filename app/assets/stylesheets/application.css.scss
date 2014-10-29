@@ -153,7 +153,7 @@ $mobile: new-breakpoint(max-width 480px 4);
 h2 {font-size: 2.125rem; font-family: $font-bold;
 font-weight: 700;}
 h3 {font-size: 1.5rem; font-family: $font-medium;
-font-weight: 400;
+font-weight: 700;
 }
 h4 {font-size: 1.3rem;}
 h5 {margin: 0}
@@ -258,7 +258,7 @@ body {
 		line-height: 1;
 		color: $dark-grey;
 		font-family: $font-medium;
-		font-weight: 400;
+		font-weight: 700;
 
 	}
 
@@ -274,7 +274,7 @@ body {
 		margin: -0.3rem 0 0 -7rem;
 		padding: 0.6rem 1.5rem;
 		font-family: $font-medium;
-		font-weight: 400;
+		font-weight: 700;
 
 		font-size: 2rem;
 		color: #FFF;
@@ -284,7 +284,7 @@ body {
 
 	p {
 		margin: 0.4rem 0 0;
-		font-size: 1.2rem;
+		font-size: 1.165rem;
 		line-height: 1.6rem;
 	}
 }
@@ -299,7 +299,7 @@ body {
 		@include span-columns(8.62938893);
 		font-family: $font-bold;
 		font-weight: 700;
-		font-size: 3.4rem;
+		font-size: 3.3rem;
 		line-height: 4.5625rem;
 		color: #FFF;
 		padding: 98px 130px 30px;
@@ -368,7 +368,7 @@ body {
 	width: 0;
 	padding: 1.1rem 1rem 1rem;
 	font-family: $font-medium;
-	font-weight: 400;
+	font-weight: 700;
 
 	background-color: $highlight;
 	color: #FFF;
