@@ -150,19 +150,23 @@ $gutter: 30px;
 $border-box-sizing: false;
 $mobile: new-breakpoint(max-width 480px 4);
 
-h2 {font-size: 2.125rem; font-family: $font-bold;}
-h3 {font-size: 1.5rem; font-family: $font-medium;}
+h2 {font-size: 2.125rem; font-family: $font-bold;
+font-weight: 700;}
+h3 {font-size: 1.5rem; font-family: $font-medium;
+font-weight: 400;
+}
 h4 {font-size: 1.3rem;}
 h5 {margin: 0}
 
 @mixin intro-paragraph {
-	font-size: 1.1875rem;
+	font-size: 1.1rem;
 	line-height: 1.55;
 }
 
 @mixin col-title {
 	font-size: 1.3rem;
 	font-family: $font-bold;
+	font-weight: 700;
 	font-weight: normal;
 	line-height: 1.375;
 	color: #505050;
@@ -208,6 +212,7 @@ body {
 
 		h1 {
 			font-family: $font-bold;
+			font-weight: 700;
 			font-size: 6.25rem;
 			margin: 0;
 			line-height: 1;
@@ -232,6 +237,7 @@ body {
 		margin: 1.6rem 0 0 0;
 		color: $dark-grey;
 		font-family: $font-bold;
+		font-weight: 700;
 	}
 
 	p {
@@ -252,6 +258,8 @@ body {
 		line-height: 1;
 		color: $dark-grey;
 		font-family: $font-medium;
+		font-weight: 400;
+
 	}
 
 	li {
@@ -266,6 +274,8 @@ body {
 		margin: -0.3rem 0 0 -7rem;
 		padding: 0.6rem 1.5rem;
 		font-family: $font-medium;
+		font-weight: 400;
+
 		font-size: 2rem;
 		color: #FFF;
 		background-color: $highlight-dark;
@@ -288,7 +298,8 @@ body {
 	h1 {
 		@include span-columns(8.62938893);
 		font-family: $font-bold;
-		font-size: 3.56rem;
+		font-weight: 700;
+		font-size: 3.4rem;
 		line-height: 4.5625rem;
 		color: #FFF;
 		padding: 98px 130px 30px;
@@ -306,7 +317,7 @@ body {
 		margin-right: -1px;
 
 		p {
-			font-size: 1.1875rem;
+			font-size: 1.16rem;
 			line-height: 1.6875rem;
 			margin-top: 1.9rem;
 		}
@@ -357,6 +368,8 @@ body {
 	width: 0;
 	padding: 1.1rem 1rem 1rem;
 	font-family: $font-medium;
+	font-weight: 400;
+
 	background-color: $highlight;
 	color: #FFF;
 	@include transition(all 0.3s ease-in);
@@ -375,6 +388,7 @@ body {
 
 		strong {
 			font-family: $font-bold;
+			font-weight: 700;
 		}
 	}
 }

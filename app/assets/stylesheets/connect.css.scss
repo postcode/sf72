@@ -50,6 +50,7 @@
 			line-height: 1.4rem;
 			font-size: 1.3rem;
 			font-family: $font-bold;
+			font-weight: 700;
 		}
 
 		p {
@@ -64,6 +65,7 @@
 			display: block;
 			height: 35px;
 			font-family: $font-bold;
+			font-weight: 700;
 		}
 	}
 }
@@ -92,6 +94,7 @@
 		font-size: 1.25rem;
 		color: $dark-grey;
 		font-family: $font-bold;
+		font-weight: 700;
 		line-height: 1.65rem;
 	}
 
@@ -103,6 +106,7 @@
 			color: $dark-grey;
 			margin: 2rem 0rem 0rem;
 			font-family: $font-bold;
+			font-weight: 700;
 		}
 	}
 
@@ -142,13 +146,14 @@
 
 		h3 {
 			font-family: $font-bold;
+			font-weight: 700;
 			font-size: 2.125rem;
 			line-height: 2.65rem;
 			margin-top: 0;
 		}
 
 		p {
-			font-size: 1.1875rem;
+			font-size: 1.1rem;
 			width: 430px;
 		}
 
@@ -172,7 +177,7 @@
 						margin: 0;
 
 						> li {
-							font-size: 1.3125rem;
+							font-size: 1.2rem;
 						}
 
 						li:before {
@@ -204,6 +209,7 @@
 		margin: 6.5rem 0 0;
 		color: $dark-grey;
 		font-family: $font-bold;
+		font-weight: 700;
 	}
 
 	> p {
@@ -225,7 +231,7 @@
 			padding-top: 20px;
 
 			strong {
-				font-weight: normal;
+				font-weight: 700;
 				font-family: $font-bold;
 				color: #474745;
 			}
