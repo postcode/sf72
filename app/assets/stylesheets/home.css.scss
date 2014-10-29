@@ -52,7 +52,7 @@
 			}
 
 			span {
-				font-size: 1.2rem;
+				font-size: 1.16rem;
 				@include span-columns(11);
 			}
 		}
@@ -83,7 +83,7 @@
 		span {
 			@include row();
 			font-family: $font-regular;
-			font-size: 1.16rem;
+			font-size: 1.1rem;
 			margin-bottom: 3rem;
 		}
 	}
