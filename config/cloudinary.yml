@@ -1,18 +1,18 @@
 ---
 development:
-  cloud_name: dvg6m7bog
+  cloud_name: hlu4lzcwg
   api_key: '914791968974562'
   api_secret: -EF8WvABbpG50E8_xCVtqvCD33w
   enhance_image_tag: true
   static_image_support: false
 production:
-  cloud_name: dvg6m7bog
+  cloud_name: hlu4lzcwg
   api_key: '914791968974562'
   api_secret: -EF8WvABbpG50E8_xCVtqvCD33w
   enhance_image_tag: true
   static_image_support: true
 test:
-  cloud_name: dvg6m7bog
+  cloud_name: hlu4lzcwg
   api_key: '914791968974562'
   api_secret: -EF8WvABbpG50E8_xCVtqvCD33w
   enhance_image_tag: true
